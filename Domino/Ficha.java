@@ -12,7 +12,7 @@ Ficha.numFichasCreadas++;
 }
 
 // Constructor aleatorio
-Ficha(){
+public Ficha(){
 lado1 = (int)(Math.random() * 6 + 1);
 lado2 = (int)(Math.random() * 6 + 1);
 Ficha.numFichasCreadas++;
