@@ -11,12 +11,12 @@ this.lado2 = l2;
 Ficha.numFichasCreadas++;
 }
 
-/* 
 // Constructor aleatorio
 Ficha(){
 lado1 = (int)(Math.random() * 6 + 1);
 lado2 = (int)(Math.random() * 6 + 1);
-}*/
+Ficha.numFichasCreadas++;
+}
 
 // Obtiene un nuevo objeto con lados cambiados
 public Ficha voltea() {

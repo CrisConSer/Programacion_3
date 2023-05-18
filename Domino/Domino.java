@@ -13,6 +13,7 @@ public class Domino{
   ficha[1] = new Ficha(0, 4);
   ficha[2] = new Ficha(3, 3);
   ficha[3] = new Ficha(0, 1);
+  ficha[4] = new Ficha ();
   //Ficha ficha5 = new Ficha();
   // Imprime todas las fichas creadas
   for (int i=0; i < Ficha.getNumFichasCreadas(); i++) {
